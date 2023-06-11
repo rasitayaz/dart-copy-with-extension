@@ -15,7 +15,10 @@ dependencies:
   build: ^2.0.0
   source_gen: ^1.0.0
   copy_with_extension:
-    path: ../copy_with_extension
+    git:
+      url: https://github.com/rasitayaz/dart-copy-with-extension
+      ref: dev
+      path: copy_with_extension
   meta: ^1.8.0
 
 dev_dependencies:
